@@ -1,9 +1,10 @@
-@import url(../styles/header.css); 
+@import url("../style.css/header.css");
+
 :root{
-    --cor-de-fundo: #ebecee;
-    --branco:#FFFFFF;
-    --fonte-principal: "Poppins"
- }
+    --cor-de-fundo:#EBECEE;
+    --branco: #FFFFFF;
+    --fonte-principal:"Poppins"
+}
 
 body{
     background-color: var(--cor-de-fundo);
@@ -11,7 +12,7 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+
 h1{
     background-color: white;
 }
-@import url(../styles/header.css);
