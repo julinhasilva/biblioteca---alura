@@ -28,3 +28,6 @@ h1{
 .lista menu{
     display: nome;
 }
+.dive_menu:checked-listamenu{
+    display: block;
+}
