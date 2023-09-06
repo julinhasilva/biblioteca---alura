@@ -31,3 +31,8 @@ h1{
 .dive_menu:checked~listamenu{
     display: block;
 }
+.lista - menu{
+    display:block;
+    position: absolute;
+    top:100%;
+}
