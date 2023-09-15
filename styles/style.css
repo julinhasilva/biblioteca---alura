@@ -3,8 +3,9 @@
 :root{
     --cor-de-fundo:#EBECEE;
     --branco: #FFFFFF;
+    --amarelo: #fecd2f;
+    --roxo: #733887;
     --fonte-principal:"Poppins"
-    --AMARELO:#FECD2F; 
 }
 
 body{
@@ -17,3 +18,5 @@ body{
 h1{
     background-color: white;
 }
+
+
