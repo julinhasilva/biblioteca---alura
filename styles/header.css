@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-position: center;
 } 
+
 .cabeçalho{
     background-color: var(--branco);
     display: flex;
@@ -14,6 +15,8 @@
     align-items: center;
     position: relative;
 }
+
+, 
 .div-1{
     display: flex;
     align-items: center;
@@ -21,20 +24,34 @@
 h1{
     display: none;
 }
+.lista-menu-título{
+color: var(--amarelo);
+font-weight: 700;
+}
+
+.lista-menu-título,.lista-menu-item{
+padding: 1em;
+border-color: var(--branco);
+}
+
+.lista-menu-link{
+background: var(--roxo);
+background-clip: text;
+text-transform: uppercase;
+}
+
 @media screen and (min-width:1024px) {
     h1{
         display: block;
         font-size: 30px;
     }
 }
-.lista menu{
-    display: nome;
-}
-.dive_menu:checked~listamenu{
+    .lista-menu{
+        display: none;
+    }
+   .div-menu:checked~.lista-menu {
     display: block;
-}
-.lista - menu{
-    display:block;
     position: absolute;
-    top:100%;
+    top: 100%;
+   }
 }
