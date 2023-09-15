@@ -30,7 +30,7 @@ font-weight: 700;
 
 .lista-menu-título,.lista-menu-item{
 padding: 1em;
-border-color: var(--branco);
+background-color: var(--branco);
 }
 
 .lista-menu-link{
